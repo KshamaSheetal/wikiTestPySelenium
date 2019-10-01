@@ -1,7 +1,7 @@
 # Test Framework for Wikipedia pages in Selenium + Python
 Find test script file [here](https://github.com/KshamaSheetal/wikiTestPySelenium/blob/master/test_selenium.py)
 
-##Test covered
+Test covered:
 1. Open the page https://en.wikipedia.org/wiki/...
 2. Verify that the external links in “External links“ section work
 3. Click on the “Oxygen” link on the Periodic table at the bottom of the page
