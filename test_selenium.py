@@ -12,9 +12,9 @@ import time
 @pytest.fixture
 def browser ():
     options = webdriver.ChromeOptions()
-    options.headless = False
+    options.headless = True
 
-    driver = webdriver.Chrome('D:/Python/drivers/chromedriver.exe', options=options)  # Optional argument, if not specified will search path.
+    driver = webdriver.Chrome('./driver/chromedriver.exe', options=options)  # Optional argument, if not specified will search path.
     driver.implicitly_wait(5)
     yield driver
     driver.quit()
